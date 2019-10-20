@@ -26,4 +26,4 @@ function intro(){
 	document.getElementById("par2").innerHTML=strintro;
 	
 }
-let strintro="this is a test";
+let strintro="Think of this as a planet (blue path) rotating around a sun with a moon (red path) rotating around the planet and an asteriod (green path) rotating around the moon.  The sliders give radius and the weighted ratios is a comparison of cycles.  Ex. 1,3 5 would be mean for every planet revolution the moon would have done 3 revolutions around the planet and the asteroid would have done 5 revolutions around the moon.";
