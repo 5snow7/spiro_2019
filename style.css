@@ -6,8 +6,11 @@ canvas {border-style:double;border-width:15px;border-color:purple;
   display: block;
 }
 
-#but1 {position:absolute;left:900px;}
+#but1 {position:absolute;left:850px;}
 #div1 {position:absolute;left:850px;top:50px;border-style:double;
-border-color:orange;border-width:10px;padding:5px;width:200px;}
-#par1 {position:absolute;left:850px;top:250px;border-style:double;
-border-color:orange;border-width:10px;padding:5px;width:400px;}
+border-color:orange;border-width:10px;padding:5px;width:250px;}
+#par1 {position:absolute;left:850px;top:150px;border-style:double;
+border-color:orange;border-width:10px;padding:5px;width:380px;}
+#par2  {position:absolute;left:850px;top:230px;border-style:double;
+border-color:orange;border-width:10px;padding:5px;width:380px;}
+  

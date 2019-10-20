@@ -1,16 +1,18 @@
 let p1;let val1=100;let val2=40;let val3=20;
 let w1a=2;let w2a=5;let w3a=3;
 function setup() {
-  createCanvas(800, 500);//length1();
+  createCanvas(800,500);//length1();
   p1=new planets(val1,val2,val3,w1a,w2a,w3a,3);
 angleMode(DEGREES);
   //frameRate(30);
   strokeWeight(3);
+  intro();
 }
 let ang=0;
 function draw() {
-  text(val1,30,30);
+  text("val1 "+val1+" w3 "+w3a,30,30);
   //background(220);
+
 translate(300,200);
  // planet1(100,100,ang);
   p1.display();

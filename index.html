@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>spiro_2019</title>
   <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
@@ -13,11 +14,11 @@
   <body>
     
   <input type="button" id="but1" value="reStart" onclick="reStart()"> 
-    <div id="div1"><input type="range" id="ran1" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran1">length1</label>
-      <input type="range" id="ran2" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran2">length2</label>
-      <input type="range" id="ran3" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran3">length3</label>
+    <div id="div1"><input type="range" id="ran1" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran1">planet(blue)</label>
+      <input type="range" id="ran2" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran2">moon(red)</label>
+      <input type="range" id="ran3" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran3">asteroid(green)</label>
         </div>
   <p id="par1">Weighted ratios<input type="text" id="inp1" value="2,3,5" ondblclick="weigths()">Enter 3 integers separated by commas and double click</p>
-      
+   <p id="par2"></p>   
   </body>
 </html>

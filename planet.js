@@ -8,7 +8,7 @@ class planets{
  planet1(){
 // push();
   rotate(this.w1*this.ang);
-  translate(this.l1,this.l1);
+  translate(this.l1,this.l1,0);
   fill(200,20,100);
   if(this.num==3){stroke(0,0,250); point(0,0);}
   this.planet2();
@@ -18,7 +18,7 @@ class planets{
 planet2(){
  //push();
   rotate(this.w2*this.ang);
-  translate(this.l2,this.l2);
+  translate(this.l2,this.l2,0);
   fill(200,20,100);
  // ellipse(0,0,30,30);
   if(this.num==2||this.num==3){stroke(250,0,0);point(0,0);}
@@ -29,7 +29,7 @@ planet2(){
  planet3(){
  //push();
   rotate(this.w3*this.ang);
-  translate(this.l3,this.l3);
+  translate(this.l3,this.l3,0);
   fill(200,20,100);
  // ellipse(0,0,30,30);
   stroke(0,250,0);point(0,0);

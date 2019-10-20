@@ -15,9 +15,15 @@ function length3(){
 }
 
 function weigths(){
-  let str=document.getElementById("inp1");
+  let str=document.getElementById("inp1").value;
   let strAr=[];
   strAr=str.split(',');
   w1a=strAr[0];w2a=strAr[1];w3a=strAr[2];
   
 }
+
+function intro(){
+	document.getElementById("par2").innerHTML=strintro;
+	
+}
+let strintro="this is a test";
